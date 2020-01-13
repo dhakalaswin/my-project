@@ -1,0 +1,19 @@
+.title{
+	font-family: sans-serif;
+	color: #dc2d5e;
+}
+
+body
+padding: 50px
+
+label
+ cursor: pointer
+
+ input[type="checkbox"]
+   display:none
+
+   + .label-text:before
+ content:"hello."
+
+&:checked + .label-text:before
+  content:
